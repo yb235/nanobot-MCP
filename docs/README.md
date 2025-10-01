@@ -24,6 +24,17 @@ If you're new to Nanobot, start here:
   - Key features and use cases
   - Getting started guide
 
+- **[Quick Reference](./QUICK_REFERENCE.md)** - Essential commands and snippets
+  - Common commands
+  - Configuration templates
+  - Code examples
+  - Troubleshooting tips
+
+- **[Glossary](./GLOSSARY.md)** - Terminology and definitions
+  - All key terms explained
+  - Acronyms reference
+  - Common confusion clarified
+
 - **[Configuration Guide](./CONFIGURATION.md)** - Comprehensive configuration reference
   - Agent configuration
   - MCP server setup (HTTP, stdio, OAuth)
@@ -384,14 +395,37 @@ Documentation feedback is appreciated! Please:
 - Share your use cases
 - Contribute examples
 
+## Document Summary
+
+| Document | Purpose | Length | Audience |
+|----------|---------|--------|----------|
+| [README](./README.md) | Documentation hub | Short | Everyone |
+| [Overview](./OVERVIEW.md) | Introduction and concepts | Medium | New users |
+| [Quick Reference](./QUICK_REFERENCE.md) | Commands and snippets | Medium | Daily users |
+| [Glossary](./GLOSSARY.md) | Terminology definitions | Medium | New users |
+| [Configuration](./CONFIGURATION.md) | Complete config reference | Long | Users/Admins |
+| [API](./API.md) | HTTP and MCP API reference | Long | Developers |
+| [Architecture](./ARCHITECTURE.md) | System design | Long | Developers |
+| [Workflow](./WORKFLOW.md) | Request lifecycles | Long | Developers |
+| [Development](./DEVELOPMENT.md) | Contributing guide | Long | Contributors |
+
 ## Next Steps
 
+### For First-Time Users
 1. Read the [Overview](./OVERVIEW.md) for a complete introduction
-2. Follow the Quick Start above to get running
-3. Study [Configuration Guide](./CONFIGURATION.md) for your use case
+2. Check the [Glossary](./GLOSSARY.md) if terms are confusing
+3. Follow the Quick Start above to get running
 4. Explore [Examples](../examples/) for inspiration
-5. Check [API Documentation](./API.md) for integration
-6. Review [Architecture](./ARCHITECTURE.md) to understand internals
+
+### For Regular Users
+1. Bookmark [Quick Reference](./QUICK_REFERENCE.md) for daily use
+2. Study [Configuration Guide](./CONFIGURATION.md) for your use case
+3. Check [API Documentation](./API.md) for integration needs
+
+### For Developers
+1. Understand the [Architecture](./ARCHITECTURE.md)
+2. Learn [Workflow](./WORKFLOW.md) patterns
+3. Follow [Development Guide](./DEVELOPMENT.md) to contribute
 
 ---
 
